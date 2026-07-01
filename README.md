@@ -1,30 +1,79 @@
-# React + TypeScript + Vite
+<img width="1914" height="962" alt="image" src="https://github.com/user-attachments/assets/18e2d755-26ac-4ecc-8503-bae9baf9994e" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img alt="Repo size"  src="https://img.shields.io/github/repo-size/geovaneborba/ignite-redux-player-web?color=4f46e5&style=for-the-badge">
+  <img alt="GitHub top language"  src="https://img.shields.io/github/languages/top/geovaneborba/ignite-redux-player-web?color=4f46e5&style=for-the-badge">
+  <img alt="GitHub language count"  src="https://img.shields.io/github/languages/count/geovaneborba/ignite-redux-player-web?color=4f46e5&style=for-the-badge">
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0;
+  <a href="#books-aprendizado">Aprendizado</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#warning-pré-requisitos"> Pré requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Começando</a> &#xa0;
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
 
-## Expanding the ESLint configuration
+## :dart: Sobre
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Ignite Player** é um player de vídeo web, desenvolvido em React, com todo o estado de reprodução e navegação entre conteúdos gerenciado com **Redux Toolkit**. O projeto consome uma API simulada (json-server) para listar os conteúdos disponíveis.
 
-- Configure the top-level `parserOptions` property like this:
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## :books: Aprendizado
+
+- Gerenciamento de estado global com Redux Toolkit
+- Reprodução de vídeo com React Player
+- Simulação de uma API REST com json-server
+- Componentes acessíveis com Radix UI (Collapsible)
+- Testes automatizados com Vitest
+
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
+
+## :rocket: Tecnologias
+
+As seguintes tecnologias foram usadas na construção do projeto:
+
+- React
+- TypeScript
+- Vite
+- Redux Toolkit
+- React Player
+- Radix UI
+- TailwindCSS
+- json-server
+- Vitest
+
+Outras dependências e ferramentas utilizadas podem ser encontradas no arquivo [package.json](./package.json)
+
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
+
+## :warning: Pré-requisitos
+
+Antes de começar, você precisa ter as seguintes ferramentas instaladas em sua máquina:
+
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/)
+
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
+
+## :checkered_flag: Começando
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/geovaneborba/ignite-redux-player-web.git
+
+# Entre na pasta e instale as dependências
+$ cd ignite-redux-player-web && npm i
+
+# Em um terminal, inicie a API simulada (json-server)
+$ npm run dev:server
+
+# Em outro terminal, inicie o projeto
+$ npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
+<p align="center">Feito com ❤️ por <a href="https://github.com/geovaneborba" target="_blank">Geovane Borba</a></p>
